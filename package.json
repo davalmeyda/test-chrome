@@ -11,7 +11,23 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "pkg": "^5.8.1",
     "puppeteer": "^22.6.1"
+  },
+  "build": {
+    "appId": "tu.id.de.aplicación",
+    "productName": "NombreDeTuProducto",
+    "win": {
+      "target": "nsis"
+    },
+    "mac": {
+      "target": "dmg"
+    },
+    "linux": {
+      "target": "AppImage"
+    }
+  },
+  "devDependencies": {
+    "electron": "^29.1.5",
+    "electron-builder": "^24.13.3"
   }
 }
