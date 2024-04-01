@@ -3,6 +3,7 @@ const puppeteer = require("puppeteer");
 (async () => {
   // Lanza una instancia del navegador Chromium
   const browser = await puppeteer.launch({
+    executablePath: 'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe',
     headless: false,
     args: ["--start-maximized"], // Esto maximizará la ventana del navegador
   });
