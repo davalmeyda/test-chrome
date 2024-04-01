@@ -5,7 +5,8 @@
   "main": "index.js",
   "bin": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "electron-builder"
   },
   "keywords": [],
   "author": "",
@@ -14,8 +15,8 @@
     "puppeteer": "^22.6.1"
   },
   "build": {
-    "appId": "tu.id.de.aplicación",
-    "productName": "NombreDeTuProducto",
+    "appId": "com.manoturqueza.sistema",
+    "productName": "Mano Turqueza",
     "win": {
       "target": "nsis"
     },
